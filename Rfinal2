@@ -1,0 +1,310 @@
+> x <- c(1, 2, 3, 4, 5)
+x <- c(1, 2, 3, 4, 5)
+x
+x[1]
+data.frame(x = c(1, 2, 3, 4), y = c(2, 4, 5, 8), z = c(
+“M
+”, 
+“F
+”, 
+“M
+”, 
+“F
+”))
+data.frame(x = c(1, 2, 3, 4), y = c(2, 4, 5, 8), z = c(
+“M
+”, 
+“F
+”, 
+“M
+”, 
+“F
+”))
+data.frame(x=c(1,2,3,4),y=c(2,3,4,5))
+d$x
+data.frame(x=c(1,2,3,4),y=c(2,3,4,5))
+d<-data.frame(x=c(1,2,3,4),y=c(2,3,4,5))
+d$x
+iris_table <- as.data.table(iris)
+iris_tabel<-as.data.table(iris)
+data.table(x = c(1, 2, 3), y = c(
+“a
+”, 
+“b
+”, 
+“c
+”))
+boxplot(data=onion, y~region_1, xlab="region_1", ylab="y",
+main="Boxplot of y and region_1" )
+read.csv("./data/data.csv",header=TRUE,sep=",")
+C:\Download
+read.csv(" C:\Download
+file_path <- "C:/Download/dataframetest.csv"
+df <- read.csv(file_path)
+head(df)
+print(df)
+data <- read.csv("C:/Download/dataframetest.csv", header = TRUE, sep = ",")
+print(data
+print(data)
+x <- data.frame(name = c(
+“a
+”, 
+“b
+”, 
+“c
+”), math = c(1, 2, 3))
+""
+x <- data.frame(name = c("a","b","c"), math=c(1,2,3)
+;
+x <- data.frame(name = c("a","b","c"), math=c(1,2,3))
+y<- data.frame(name=c("c","d","a"), math=c(4,5,6))
+merge(x,y, by="name", all.x=TRUE)
+file_path <- "C:/Download/dataframetest.csv"
+df <- read.csv(file_path)
+summary(df)
+describe(df)
+install.packages("psych")
+library(psych)
+description <- describe(df)
+print(description)
+library(utils)
+library(graphics)
+dev.new()
+boxplot(data$
+열
+이
+름, main="
+상
+자 
+그
+림", xlab="X 
+축 
+레
+이
+블", ylab="Y 
+축 
+레
+이
+블")
+file_path <- "C:/Download/dataframetest.csv"
+file_path <- "C:/Download/dataframetest.csv"
+file_path <- "C:/Download/dataframetest2.csv"
+df <- read.csv(file_path)
+print(df)
+boxplot(data=df,y~name, xlab="name",ylab="y",main="test")
+hist(df[,colnamesdf)==y],breaks=10,main="test",xlab=y,ylab="name")
+print(df)
+data <- data.frame(
+X = 1:10,
+height = c(150, 160, 149, 172, 185, 181, 179, 182, 191, 170)
+)
+print(data)
+hist(data$height, main="
+키 
+분
+포 
+히
+스
+토
+그
+램", xlab="
+키", ylab="
+빈
+도", col="skyblue")
+print(hist)
+hist(data$height, main="
+키 
+분
+포 
+히
+스
+토
+그
+램", xlab="
+키", ylab="
+빈
+도", col="skyblue")
+dev.new()
+png("histogram.png")
+dev.new()
+hist(data$height, main="
+키 
+분
+포 
+히
+스
+토
+그
+램", xlab="
+키", ylab="
+빈
+도", col="\
+hist(data$height, main="
+키 
+분
+포 
+히
+스
+토
+그
+램", xlab="
+키", ylab="
+빈
+도", col="skyblue")
+png("histogram.png")
+dev.off()
+system("open histogram.png")
+data <- data.frame(
+X = 1:10,
+height = c(150, 160, 149, 172, 185, 181, 179, 182, 191, 170)
+)
+jpeg("C:\Download", width = 950, height = 650, units = "px")
+hist(data[,colnames(data) == y] , main = mainname, xlab = y)
+print(data)
+data <- data.frame(
+data <- data.frame(
+height = c(150, 160, 149, 172, 185, 181, 179, 182, 191, 170)
+)
+print(data)
+hist(data[,colnames(data) == y] , main = mainname, xlab = y)
+# 
+히
+스
+토
+그
+램 
+그
+리
+기
+hist(data$height, main="
+키 
+분
+포 
+히
+스
+토
+그
+램", xlab="
+키", ylab="
+빈
+도", col="skyblue")
+x<-# 
+히
+스
+토
+그
+램 
+그
+리
+기
+hist(data$height, main="
+키 
+분
+포 
+히
+스
+토
+그
+램", xlab="
+키", ylab="
+빈
+도", col="skyblue")
+x<-hist(data$height, main="
+키 
+분
+포 
+히
+스
+토
+그
+램", xlab="
+키", ylab="
+빈
+도", col="skyblue")
+print(x)
+png("histogram.png", width = 800, height = 600)
+plot(x, main="
+키 
+분
+포 
+히
+스
+토
+그
+램", xlab="
+키", ylab="
+빈
+도", col="skyblue")
+dev.off()
+system("open histogram.png")
+q()
+#include <Rcpp.h>
+using namespace Rcpp;
+load("C:\\Users\\SEC\\Documents\\.RData")
+PNH->read.csv("C:/Download/PNH.csv",header=TRUE,sep=",")
+NFR->read.csv("C:/Download/NFR.csv",header=TRUE,sep=",")
+NPAR->read.csv("C:/Download/NPAR.csv",header=TRUE,sep=",")
+PPGP->read.csv("C:/Download/PPGP.csv",header=TRUE,sep=",")
+PNH<-read.csv("C:/Download/PNH.csv",header=TRUE,sep=",")
+NFR<-read.csv("C:/Download/NFR.csv",header=TRUE,sep=",")
+NPAR<-read.csv("C:/Download/NPAR.csv",header=TRUE,sep=",")
+PPGP<-read.csv("C:/Download/PPGP.csv",header=TRUE,sep=",")
+print(PNH)
+describe(PNH)
+library(dplyr)
+install.packages("psych")
+library(psych)
+describe(PNH)
+if (!requireNamespace("ggplot2", quietly = TRUE)) {
+  install.packages("ggplot2")
+}
+library(ggplot2)
+library(ggplot2)
+ggplot(PNH, aes(x = area, y = total)) +
+  geom_boxplot() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+ggplot(PNH, aes(x = area, y = total, fill = area)) +
+  geom_col() +
+  labs(title = "Total by Area",
+       x = "Area",
+       y = "Total") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+ggplot(PPGP, aes(x = area, y = population_density)) +
+  geom_col(fill = "blue") +
+  labs(title = "Total by Area",
+       x = "Area",
+       y = "Population Density") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+ggplot(NPAR, aes(x = area, y = value, fill = age_group)) +
+  geom_boxplot() +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(title = "Boxplot of Population Distribution by Age Group and Area", x = "Area", y = "Population") +
+  scale_fill_brewer(palette = "Set3")  
+correlation <- cor(PPGP$populationdensity, NFR$total)
+cat("상관 계수:", correlation, "\n")
+plot(data$ave, data$total, main = "Scatter Plot of 'ave' and 'total'",
+     xlab = "ave", ylab = "total", pch = 16, col = "blue")
+data <- data.frame(
+  populationdensity = c(902.85, 211.74, 148.38, 53.84, 92.16, 53.09, 455.46, 211.49, 44, 176.97, 35.59),
+  total = c(14052, 5060, 1649, 549, 770, 957, 957, 6406, 914, 9751, 205)
+)
+# 산점도 그리기
+plot(data$populationdensity, data$total, main = "Scatter Plot of 'populationdensity' and 'total'",
+     xlab = "populationdensity", ylab = "total", pch = 16, col = "green")
+data <- data.frame(
+  ave = c(32.82372616, 33.25395257, 34.60764099, 38.47540984, 37.26623377, 31.03343783, 36.71786834, 34.45863253, 33.51531729, 34.00697364, 39.70731707),
+  total = c(14052, 5060, 1649, 549, 770, 957, 957, 6406, 914, 9751, 205)
+)
+# 상관 계수 계산
+correlation <- cor(data$ave, data$total)
+# 결과 출력
+cat("상관 계수:", correlation, "\n")
+data <- data.frame(
+  ave = c(32.82372616, 33.25395257, 34.60764099, 38.47540984, 37.26623377, 31.03343783, 36.71786834, 34.45863253, 33.51531729, 34.00697364, 39.70731707),
+  total = c(14052, 5060, 1649, 549, 770, 957, 957, 6406, 914, 9751, 205)
+)
+# 산점도 그리기
+plot(data$ave, data$total, main = "Scatter Plot of 'ave' and 'total'",
+     xlab = "ave", ylab = "total", pch = 16, col = "blue")
+save.image("C:\\Users\\SEC\\Documents\\rfinal")
